@@ -54,10 +54,10 @@ while True:
 
       
     if snake[0][0] == screenHight:
-        snake[0][0] = 0
+        snake[0][0] = 1
 
     if snake[0][1] == screenWidth:
-        snake[0][1] = 0
+        snake[0][1] = 1
 
     if snake[0][0] == 0:
         snake[0][0] = screenHight
